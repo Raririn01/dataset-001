@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+
+*.log
+
+output_pose_comparison.mp4
+comparison_report_all.csv
+output_comparison_results/
+output_comparison_results copy/
+
+*.tmp
+*.bak
+* copy.py

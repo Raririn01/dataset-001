@@ -1,0 +1,9 @@
+opencv-python-headless
+numpy
+pandas
+matplotlib
+mediapipe
+ultralytics
+tensorflow_hub
+protobuf
+tqdm
