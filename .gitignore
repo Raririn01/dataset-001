@@ -1,34 +1,28 @@
-.venv/
+# Ignore everything by default.
+*
+
+# Keep git rules.
+!.gitignore
+
+# Keep the runnable code package requested for sharing.
+!batch_pose_eval.py
+!run_comparison_pipeline.py
+!rebuild_summary.py
+!model_performance_summary.py
+!eda_analysis.py
+!requirements.txt
+
+# Keep the input dataset folder.
+!clips_mp4/
+!clips_mp4/**
+
+# Always ignore local/runtime clutter inside allowed folders.
 __pycache__/
 *.py[cod]
-
+.venv/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-htmlcov/
-
 *.log
-
-output_pose_comparison.mp4
-comparison_report_all.csv
-output_comparison_results/
-output_comparison_results copy/
-
-# Local datasets and generated media
-clips_mp4/
-test_clips/
-Fixpeper/
-*.mp4
-*.avi
-*.mov
-
-# Document/report artifacts kept locally
-*.doc
-*.docx
-*.pdf
-*.html
-uco_rehabilitation_eda_comprehensive.png
-
 *.tmp
 *.bak
-* copy.py
