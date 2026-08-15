@@ -14,6 +14,21 @@ comparison_report_all.csv
 output_comparison_results/
 output_comparison_results copy/
 
+# Local datasets and generated media
+clips_mp4/
+test_clips/
+Fixpeper/
+*.mp4
+*.avi
+*.mov
+
+# Document/report artifacts kept locally
+*.doc
+*.docx
+*.pdf
+*.html
+uco_rehabilitation_eda_comprehensive.png
+
 *.tmp
 *.bak
 * copy.py
