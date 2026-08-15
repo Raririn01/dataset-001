@@ -3,6 +3,7 @@
 
 # Keep git rules.
 !.gitignore
+!README.md
 
 # Keep the runnable code package requested for sharing.
 !batch_pose_eval.py
